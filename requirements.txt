@@ -14,3 +14,4 @@ loguru==0.7.3
 # pip install --upgrade "langgraph-cli[inmem]"
 langchain-community==0.4.1
 pypdf==6.4.1
+langchain-chroma==1.1.0
