@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "langchain-agent"
+version = "0.1.0"
+description = "LangChain agent project"
+authors = [
+    { name = "Evan" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langgraph",
+    "langgraph-api",
+    "fastapi",
+    "uvicorn"
+]
